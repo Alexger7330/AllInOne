@@ -1,0 +1,37 @@
+header {
+    padding-top: 18px;
+    min-height: 70px;
+    padding-bottom: 12px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav__wrapper .active {
+    margin-bottom: 1px;
+    border-bottom: 2px solid #000;
+}
+
+.nav__link {
+    color: #000;
+    font-size: 15px;
+}
+
+
+.nav__link:not(:last-child) {
+    margin-right: 33px;
+}
+
+.location__pointer {
+    margin-right: 11px;
+    height: 100%;
+}
+
+.cart__logo {
+    margin-left: 33px;
+}
