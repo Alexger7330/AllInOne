@@ -3,7 +3,7 @@ header {
     min-height: 70px;
     padding-bottom: 12px;
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Jura';
 }
 
 .header__wrapper {
@@ -20,11 +20,18 @@ header {
 .nav__link {
     color: #000;
     font-size: 15px;
+    font-weight: 700;
 }
 
 
 .nav__link:not(:last-child) {
     margin-right: 33px;
+}
+
+.locationAndCart {
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .location__pointer {

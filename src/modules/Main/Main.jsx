@@ -1,4 +1,4 @@
-import MainProductBg from '../../images/MainProductBg.svg'
+import MainProductBg from '../../images/main/MainProductBg.svg'
 import '../../styles/main.css'
 
 export const Main = () => {

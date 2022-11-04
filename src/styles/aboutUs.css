@@ -1,0 +1,63 @@
+.aboutUs__wrapper {
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aboutUs__mainIformation {
+    max-width: 616px;
+}
+
+.aboutUs__mainIformation h2 {
+    margin-bottom: 22px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.aboutUs__mainIformation p {
+    max-width: 490px;
+    text-transform: uppercase;
+    border-top: 3px solid #C30000;
+    padding-top: 36px;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Jura';
+    font-weight: 500;
+}
+
+.aboutUs__contacts {
+    max-width: 526px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.address__wrapper {
+    text-transform: uppercase;
+}
+
+.address__wrapper h3,
+.contacts h3 a {
+    font-size: 20px;
+    color: #000;
+}
+
+.address__wrapper p {
+    font-size: 15px;
+    font-family: 'Jura';
+    font-weight: 700;
+}
+
+.maseege__wrapper {
+    display: flex;
+    justify-content: center;
+}
