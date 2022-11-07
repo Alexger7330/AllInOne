@@ -2,5 +2,92 @@
     height: 100%;
     display: block;
     margin-left: auto;
-    z-index: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.main__wrapper {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.text__wrapper {
+    width: 670px;
+    text-align: justify;
+    margin-right: 60px;
+}
+
+.main__text {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 120px;
+    color: #000000;
+    -webkit-text-stroke: 1px #FF0000;
+}
+
+.main__text span {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #FF0000;
+}
+
+.main__catalogBtn {
+    width: 200px;
+    height: 60px;
+    color: #000;
+    background-color: #ED0000;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Jura';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-right: 18px;
+}
+
+.text__wrapper i {
+    font-size: 32px;
+}
+
+.carousel__wrapper {
+    width: 454px;
+}
+
+.carousel div {
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    position: absolute;
+    top: 45%;
+    left: 56%;
+    font-size: 32px;
+}
+
+.right {
+    position: absolute;
+    top: 45%;
+    right: 8%;
+    font-size: 32px;
+}
+
+.buttonForCarousel {
+    border: 0;
+    background-color: transparent;
+}
+
+.ant-carousel .slick-dots li button {
+    position: absolute;
+    bottom: -25px;
+    left: -165px;
+    background-color: red !important;
 }

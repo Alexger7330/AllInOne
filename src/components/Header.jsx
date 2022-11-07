@@ -10,7 +10,7 @@ export const Header = observer(() => {
     return (
         <header>
             <div className='container'>
-                <div className='header__wrapper'>
+                <nav className='header__wrapper'>
                     <NavLink className='header__nav__link' to="/"><img src={Logo} alt="Logo" /></NavLink>
 
                     <div className='header__nav__wrapper'>
@@ -23,7 +23,7 @@ export const Header = observer(() => {
                         <span><img src={Location} alt="pointer" className='location__pointer' />Belarus</span>
                         <NavLink className='header__nav__link cart__logo' to="cart"><img src={Cart} alt="Cart" /></NavLink> {/*будет image */}
                     </div>
-                </div>
+                </nav>
             </div>
         </header>
 
