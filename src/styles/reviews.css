@@ -1,0 +1,138 @@
+.reviews__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.reviews {
+    max-width: 505px;
+    margin-right: 100px;
+    height: 550px;
+}
+
+.carouselReviews {
+    max-height: 520px;
+    height: 100%;
+}
+
+.reviews__wrapper .ant-carousel .slick-dots li button {
+    display: none !important;
+}
+
+.reviews__card {
+    height: 214px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin: 13px 0;
+}
+
+.cards__wrapper {
+    height: 100%;
+}
+
+.stars__image {
+    margin: 10px 28px !important;
+}
+
+.card__inf {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Jura';
+}
+
+.user__image {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.card__title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #C40000;
+    margin-bottom: 15px;
+}
+
+.card__subtitle {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.leftBtn,
+.rightBtn {
+    display: block;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+
+.reviews__form {
+    font-family: 'Jura';
+    text-transform: uppercase;
+    height: 600px;
+}
+
+.reviews__form input,
+.reviews__form textarea {
+    width: 370px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+.reviews__form input {
+    height: 55px;
+}
+
+.reviews__form textarea {
+    height: 155px !important;
+}
+
+.form__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formStarsAndSubmit input {
+    height: 55px;
+    border: 1px solid #000;
+    border-radius: 0;
+}
+
+.formStarsAndSubmit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formStarsAndSubmit input {
+    width: 100%;
+    height: 35px;
+}
+
+
+.reviews__form h2 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.form__wrapper p {
+    font-weight: 700;
+    font-size: 15px;
+    color: #C40000;
+    margin-bottom: 10px;
+}
+
+.form__submit__ntb {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #C30000;
+    width: 172px;
+    height: 41px;
+    border-radius: 10px;
+    border: 0;
+}

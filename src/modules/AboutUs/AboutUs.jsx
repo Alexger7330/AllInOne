@@ -17,7 +17,7 @@ export const AboutUs = () => {
                     </div>
                     <div className="aboutUs__contacts">
                         <div className="address__wrapper">
-                            <h3>You can find us at:</h3>
+                            <h3>You can find us at</h3>
                             <p>Belarus, minsk, uborevicha 104</p>
                         </div>
                         <div className="contacts">

@@ -10,6 +10,7 @@
 }
 
 .main__wrapper {
+    margin: 110px 0;
     position: relative;
     z-index: 2;
     display: flex;
@@ -24,10 +25,11 @@
 }
 
 .main__text {
+    font-family: 'Teko', sans-serif;
     text-transform: uppercase;
-    font-weight: 500;
-    font-size: 90px;
-    line-height: 120px;
+    font-size: 135px;
+    line-height: 130px;
+    margin-bottom: 15px;
     color: #000000;
     -webkit-text-stroke: 1px #FF0000;
 }
@@ -59,11 +61,6 @@
 
 .carousel__wrapper {
     width: 454px;
-}
-
-.carousel div {
-    display: flex;
-    justify-content: center;
 }
 
 .left {
