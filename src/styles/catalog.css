@@ -1,0 +1,75 @@
+.catalog__wrapper {
+    font-family: "Jura";
+}
+
+.category__wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.category__button,
+.product__card__btn {
+    width: 120px;
+    height: 30px;
+    background-color: #e43838;
+    border-radius: 5px;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.category__button:not(:last-child) {
+    margin-right: 26px;
+}
+
+.product__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product__card {
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px grey;
+    max-width: 420px;
+    margin: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product__card h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 15px 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.product__card__ditales {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.product__card__btn {
+    width: 95px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.product__card__price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.productImage {
+    width: 240px;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}

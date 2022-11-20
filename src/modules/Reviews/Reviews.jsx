@@ -1,4 +1,4 @@
-import { Carousel, Form, Input, InputNumber } from "antd"
+import { Carousel, InputNumber } from "antd"
 import { useRef } from "react"
 import '../../styles/reviews.css'
 import Stars from '../../images/reviews/countStar.svg'
@@ -99,56 +99,28 @@ export const Reviews = () => {
                 </div>
                 <div className="reviews__form">
                     <h2>Leave your feedback about us</h2>
-                    <Form>
+                    <form>
                         <div className="form__wrapper">
+
                             <p>your name</p>
-                            <Form.Item
-                                name={['Name']}
-                                rules={[
-                                    { required: true, },
-                                ]}>
-                                <Input placeholder="name" />
-                            </Form.Item>
+                            <input required placeholder="name" name={['Name']} />
 
                             <p>your e-mail</p>
-                            <Form.Item
-                                name={["Email"]}
-                                rules={[
-                                    {
-                                        type: "email",
-                                        required: true
-                                    }
-                                ]}>
-                                <Input placeholder="name@gmail.com" />
-                            </Form.Item>
+                            <input type={'email'} required placeholder="name@gmail.com" name={["Email"]} />
 
                             <p>your message</p>
-                            <Form.Item name={['Introduction']} rules={[{ required: true, }]}>
-                                <Input.TextArea placeholder="some review" />
-                            </Form.Item>
+                            <textarea placeholder="some review" name={['Introduction']} required />
 
                             <div className="formStarsAndSubmit">
                                 <div>
                                     <p>put a star</p>
-                                    <Form.Item
-                                        className="input__star"
-                                        name={['Stars']}
-                                        rules={[
-                                            {
-                                                type: 'number',
-                                                min: 0,
-                                                max: 5,
-                                                required: true
-                                            },
-                                        ]}>
-                                        <InputNumber />
-                                    </Form.Item>
+                                    <InputNumber className="input__star" required type={'number'} max={5} min={0} name={['Stars']} />
                                 </div>
 
                                 <button className="form__submit__ntb" type="Submit">Send</button>
                             </div>
                         </div>
-                    </Form>
+                    </form>
                 </div>
             </div>
         </div>

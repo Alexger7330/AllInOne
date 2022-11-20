@@ -1,0 +1,80 @@
+.cart {
+    font-family: 'Jura';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.cartEmpty{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.cart__wrapper{
+    margin: 50px 0 70px 0;
+}
+
+.cartItems__wrapper {
+    border-top: 2px solid #C30000;
+    border-bottom: 2px solid #C30000;
+    margin: 15px 0;
+}
+
+.signatures {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.signatures p {
+    margin: 0;
+}
+
+.totalPrice {
+    margin: 0 110px 0 55px;
+}
+
+.subtotalPrice {
+    text-align: right;
+}
+
+.subtotalPrice span {
+    margin-left: 55px;
+}
+
+/* ///////////////////////////// */
+
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.imageAndAbout {
+    display: flex;
+    align-items: center;
+}
+
+.imageAndAbout h2 {
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.cartItem__image {
+    height: 230px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.cartItem__information {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deleteBtn{
+    font-size: 26px;
+    color: #C30000;
+}

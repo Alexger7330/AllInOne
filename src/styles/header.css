@@ -13,8 +13,8 @@ header {
 }
 
 .header__nav__wrapper .active {
-    margin-bottom: 1px;
-    border-bottom: 2px solid #000;
+        margin-bottom: 1px;
+        border-bottom: 2px solid #000;
 }
 
 .nav__link {
