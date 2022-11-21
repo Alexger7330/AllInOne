@@ -38,6 +38,7 @@ class CatalogStore {
                 this.productsByCategory.push(json[i])
 
             }
+            localStorage.setItem(`${category.name}`,JSON.stringify(this.productsByCategory))
             // this.productsByCategory = [...json]
             this.isProductsLoading = false
         })

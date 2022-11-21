@@ -73,3 +73,55 @@
     margin: 0;
     padding: 0;
 }
+
+/* ////////////////////////// */
+
+.product__wrapper {
+    display: flex;
+    font-family: "Jura";
+    margin-top: 15%;
+}
+
+.product__image__wrapper {
+    margin: 0 50px;
+}
+
+.product__imageAndInf {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.product__image {
+    width: 500px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.produst__information h1,
+.product__price {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.product__description {
+    font-size: 25px;
+    margin: 50px 0;
+}
+
+.product__priceAndBtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product__card__btnForCart {
+    width: 200px;
+    height: 50px;
+    background-color: #e43838;
+    border-radius: 10px;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+}
