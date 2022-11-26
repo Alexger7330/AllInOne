@@ -1,4 +1,5 @@
-import MainProductBg from '../../images/main/MainProductBg.svg'
+import MainProductBg from '../../images/main/MainProductBg.png'
+import MainProductBgNotText from '../../images/main/MainProductBgNotText.png'
 import '../../styles/main.css'
 import { Carousel } from 'antd'
 import iphone13 from '../../images/main/iphone13.svg'
@@ -14,12 +15,17 @@ export const Main = () => {
     return (
         <>
             <img src={MainProductBg} alt="productBg" className='mainProductBg' />
+            <img src={MainProductBgNotText} alt="productBg" className='MainProductBgNotText' />
+
             <div className="container">
                 <div className="main__wrapper">
                     <div className="text__wrapper">
                         <h2 className='main__text'>everything you <span> need </span> <br /> in our store</h2>
                         <NavLink to='catalog'><button className='main__catalogBtn'>To catalog</button></NavLink>
                         <i className="fa fa-angle-double-right" aria-hidden="true"></i>
+                        <i className="fa fa-angle-double-right  newArrow" aria-hidden="true"></i>
+                        <i className="fa fa-angle-double-right newArrow" aria-hidden="true"></i>
+                        <i className="fa fa-angle-double-right  newArrow" aria-hidden="true"></i>
                     </div>
                     <div className="carousel__wrapper">
                         <button className='buttonForCarousel left' onClick={() => ref.current.prev()}>

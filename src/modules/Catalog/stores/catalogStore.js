@@ -23,13 +23,18 @@ class CatalogStore {
         const response = await fetch('https://api.escuelajs.co/api/v1/categories')
         const json = await response.json()
         runInAction(() => {
-            this.categories = [...json]
             this.isCategoriesLoading = false
+            this.categories = []
+            for (let i = 0; i <= 4; i++) {
+                this.categories.push(json[i])
+
+            }
         })
     }
 
     loadCategory = async (category) => {
         this.isProductsLoading = true
+        console.log(category)
         const response = await fetch(` https://api.escuelajs.co/api/v1/categories/${category.id}/products`)
         const json = await response.json()
         runInAction(() => {
@@ -38,8 +43,9 @@ class CatalogStore {
                 this.productsByCategory.push(json[i])
 
             }
-            localStorage.setItem(`${category.name}`,JSON.stringify(this.productsByCategory))
             // this.productsByCategory = [...json]
+            localStorage.setItem(`${category.name}`, JSON.stringify(this.productsByCategory))
+
             this.isProductsLoading = false
         })
     }

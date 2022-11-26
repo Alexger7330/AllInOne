@@ -58,3 +58,37 @@
     .massege__footer__item:not(:last-child) {
         margin-right: 14px;
     }
+
+
+/* /////////////// meadia /////////////// */
+
+
+    @media (max-width: 768px) {
+        .logoFooter {
+            margin-right: 90px;
+        }
+    }
+
+    
+    @media (max-width: 426px) {
+        .logoFooter {
+            margin-right: 45px;
+        }
+
+        .footer__nav__link {
+            font-size: 13px;
+            margin-bottom: 5px;
+        }
+
+        .contact__phone {
+            font-size: 13px;
+        }
+    
+        .contact__email {
+            font-size: 16px;
+        }
+    }
+
+    @media (max-width: 376px) {
+        
+    }

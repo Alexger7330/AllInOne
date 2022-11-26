@@ -1,0 +1,62 @@
+.navBar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    background-color: rgba(180, 190, 190, 0.9);
+    z-index: 3;
+}
+
+.fa {
+    font-size: 30px !important;
+}
+
+.navBar__items {
+    position: relative;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.navBar__item {
+    font-family: 'Jura';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #C40000;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.navBar__item:hover {
+    color: #000;
+}
+
+.navBarLogo {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+
+/* /////////////// meadia /////////////// */
+
+@media (max-width: 426px) {
+    .navBar {
+        width: 220px;
+    }
+}
+
+@media (max-width: 376px) {
+    .navBar {
+        width: 190px;
+    }
+}
