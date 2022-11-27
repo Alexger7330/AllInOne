@@ -20,6 +20,10 @@
     font-size: 12px;
 }
 
+.category__button {
+    height: 50px;
+}
+
 .category__button:not(:last-child) {
     margin-right: 26px;
 }
@@ -48,6 +52,11 @@
     margin: 15px 0;
     text-align: center;
     cursor: pointer;
+}
+
+
+.product__card h3 a {
+    color: #000;
 }
 
 .product__card__ditales {
@@ -124,4 +133,112 @@
     text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
+}
+
+
+
+@media (max-width: 1024px) {
+    .product__wrapper {
+        margin-top: 50px;
+    }
+
+    .product__imageAndInf {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product__image__wrapper {
+        margin-bottom: 50px;
+    }
+
+    .produst__information h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .product__description {
+        margin: 30px 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .catalog__wrapper {
+        margin-bottom: 30px;
+    }
+
+    .category__wrapper {
+        width: 80%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .category__button {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 426px) {
+    .category__button:nth-child(even) {
+        margin-right: 8px;
+    }
+
+    .category__button:nth-child(even) {
+        margin-left: 8px;
+        margin-right: 0;
+    }
+
+    .product__wrapper {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product__image {
+        width: 380px;
+    }
+
+    .arrowBack {
+        margin-bottom: 15px;
+    }
+
+    .product__description {
+        font-size: 22px;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .product__card__btnForCart {
+        width: 180px;
+        height: 45px;
+    }
+
+    .product__price {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 376px) {
+
+    .category__button:nth-child(even) {
+        margin-right: 2px;
+    }
+
+    .category__button:nth-child(even) {
+        margin-left: 2px;
+        margin-right: 0;
+    }
+
+    .category__button {
+        margin-bottom: 14px;
+    }
+
+    .product__image {
+        width: 330px;
+    }
+
+    .product__image__wrapper{
+        margin-bottom: 25px;
+    }
 }

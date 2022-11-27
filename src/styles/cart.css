@@ -6,12 +6,12 @@
     text-transform: uppercase;
 }
 
-.cartEmpty{
+.cartEmpty {
     margin-top: 50px;
     text-align: center;
 }
 
-.cart__wrapper{
+.cart__wrapper {
     margin: 50px 0 70px 0;
 }
 
@@ -74,7 +74,122 @@
     justify-content: space-between;
 }
 
-.deleteBtn{
+.deleteBtn {
     font-size: 26px;
     color: #C30000;
+}
+
+
+/* ///////////////////////////// */
+
+@media (max-width:1024px) {
+    .cartItem__information {
+        width: 260px;
+    }
+
+    .totalPrice {
+        margin: 0 65px 0 20px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .totalPrice {
+        margin: 0 40px 0 10px;
+    }
+
+    .cart {
+        font-size: 18px;
+    }
+
+    .cartItem__information {
+        width: 200px;
+    }
+
+
+    .imageAndAbout {
+        width: 500px;
+    }
+
+    .cartItem__image {
+        height: 160px;
+    }
+
+    .imageAndAbout h2 {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width:426px) {
+
+    .cart {
+        font-size: 15px;
+    }
+
+    .totalPrice {
+        margin: 0 10px 0 8px;
+    }
+
+    .imageAndAbout {
+        display: flex;
+        width: 200px;
+        flex-direction: column;
+    }
+
+    .cartItem__image {
+        width: 195px;
+        margin-bottom: 20px;
+    }
+
+    .imageAndAbout h2 {
+        margin: 0;
+        text-align: center;
+        width: 200px;
+    }
+
+    .cartItem__information {
+        width: 150px;
+        font-size: 18px;
+    }
+
+    .cartItem__information p:not(:last-child){
+        margin-right: 25px;
+    }
+
+    .subtotalPrice{
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width:376px) {
+
+    .totalPrice {
+        margin: 0 0 0 4px;
+    }
+
+    .imageAndAbout {
+        width: 165px;
+    }
+
+    .cartItem__image {
+        width: 160px;
+        margin-bottom: 10px;
+    }
+
+    .imageAndAbout h2 {
+        width: 165px;
+        font-size: 16px;
+    }
+
+    .cartItem__information {
+        width: 140px;
+    }
+
+    .subtotalPrice{
+        font-size: 18px;
+    }
+
 }

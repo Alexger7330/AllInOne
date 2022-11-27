@@ -49,7 +49,7 @@
 
 .address__wrapper h3,
 .contacts h3 a {
-    font-family: 'Teko', sans-serif;    
+    font-family: 'Teko', sans-serif;
     font-size: 26px;
     color: #000;
 }
@@ -63,4 +63,143 @@
 .maseege__wrapper {
     display: flex;
     justify-content: center;
+}
+
+
+
+
+@media (max-width: 1024px) {
+
+    .aboutUs__wrapper {
+        margin: 140px 0 50px 0;
+        padding: 0;
+    }
+
+    .information__wrapper {
+        width: 420px;
+    }
+
+    .aboutUsImage {
+        width: 450px;
+    }
+
+    .aboutUs__mainIformation p {
+        padding-top: 20px;
+        font-size: 18px;
+    }
+
+    .address__wrapper h3,
+    .contacts h3 a {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .aboutUs__wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .information__wrapper {
+        width: 520px;
+        margin: 0 auto;
+    }
+
+    .aboutUs__contacts {
+        margin-top: 40px;
+    }
+
+    .aboutUsImage {
+        width: 520px;
+        margin: 0 auto;
+    }
+
+    .aboutUs__mainIformation {
+        max-width: auto;
+    }
+
+    .aboutUs__mainIformation p {
+        width: 500px;
+        max-width: none;
+        margin: 0;
+    }
+
+    .aboutUs__contacts {
+        max-width: 550px;
+    }
+
+}
+
+
+@media (max-width: 426px) {
+
+    .aboutUs__wrapper {
+
+        margin-top: 40px;
+    }
+
+    .information__wrapper {
+        width: 380px;
+    }
+
+
+    .aboutUsImage {
+        width: 380px;
+        margin: 0 auto;
+    }
+
+    .aboutUs__mainIformation {
+        max-width: auto;
+    }
+
+    .aboutUs__mainIformation p {
+        width: 350px;
+
+    }
+
+    .address__wrapper {
+        width: 200px;
+    }
+
+    .address__wrapper h3,
+    .contacts h3 a {
+        font-size: 22px;
+    }
+
+}
+
+
+
+@media (max-width: 376px) {
+
+    .information__wrapper {
+        width: 330px;
+    }
+
+    .aboutUs__mainIformation {
+        max-width: auto;
+    }
+
+    .aboutUs__mainIformation h2 {
+        font-size: 32px;
+    }
+
+    .aboutUs__mainIformation p {
+        width: 330px;
+    }
+
+    .aboutUs__contacts {
+        width: 330px;
+    }
+
+    .address__wrapper {
+        width: 150px;
+    }
+
+    .aboutUsImage {
+        width: 330px;
+    }
+
 }

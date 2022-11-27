@@ -69,7 +69,6 @@
 .reviews__form {
     font-family: 'Jura';
     text-transform: uppercase;
-    height: 600px;
 }
 
 .reviews__form input,
@@ -139,4 +138,79 @@
     border-radius: 10px;
     border: 0;
     cursor: pointer;
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+
+    .reviews {
+        max-width: 480px;
+    }
+
+    .reviews__form input,
+    .reviews__form textarea {
+        width: 340px;
+    }
+
+    .formStarsAndSubmit input {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    .reviews {
+        max-width: 350px;
+        margin-right: 35px;
+    }
+
+    .reviews__form input,
+    .reviews__form textarea {
+        width: 300px;
+    }
+
+
+    .reviews__form h2 {
+        font-size: 28px;
+    }
+
+    .formStarsAndSubmit input {
+        width: 100%;
+    }
+
+    .reviews__form textarea {
+        margin-bottom: 14px;
+    }
+
+    .form__submit__ntb {
+        text-transform: uppercase;
+        width: 140px;
+    }
+}
+
+@media (max-width: 426px) {
+
+    .reviews__wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .reviews{
+        margin: 0;
+    }
+
+    .reviews__form{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 376px) {
+    .reviews {
+        max-width: 330px;
+    }
 }

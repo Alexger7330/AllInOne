@@ -22,7 +22,6 @@ export const Reviews = () => {
                     <Carousel autoplay dotPosition="left" className='carouselReviews' ref={carouselRef}>
                         <div>
                             <div className="cards__wrapper">
-
                                 <div className="reviews__card">
                                     <img className="stars__image" src={Stars} alt="stars" />
                                     <div className="card__inf">
